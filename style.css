@@ -1,11 +1,77 @@
 body{
     margin : 0;
     padding: 0;
-    background-color: #c62368;
+    background-color: #00101C;
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    justify-self: center;
+    justify-self: space-between;
     align-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+header{
+    color: rgb(255,255,255);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.bottom-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.input-container{
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+#submit-icon{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: #c62368;
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(38,57,77)0 20px 30px -10px;
+    box-sizing: border-box;
+}
+
+
+button{
+background: #00101C;
+color: aliceblue;
+margin-left: 37%;
+margin-top: 10%;
+padding: 10px;
+width: 30%;
+border: none;
+font-size: 20px;
+cursor: pointer;
+}
+
+#myimage{
+    height: 200%;
+    width: 50%;
+    margin-left: 30%;
 }
