@@ -1,2 +1,3 @@
 # ImageGenerator
-![home](https://github.com/RajshreeRajoliya/ImageGenerator/assets/113670900/7358bf89-cd77-4fb6-8efa-65dd61659964)
+
+![Image](https://github.com/RajshreeRajoliya/ImageGenerator/assets/113670900/1e88a68e-ba5c-47a2-aa31-3553960a0211)
